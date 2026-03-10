@@ -25,22 +25,25 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-0">
           <ProjectCard 
-            title="E-Commerce Dashboard" 
-            description="A responsive admin dashboard with real-time analytics."
-            tech={['Next.js', 'TypeScript', 'Tailwind']}
-            link="/projects"
+            title="Bisakol Shop" 
+            description="A modern e-commerce platform built to provide a seamless and localized shopping experience with real-time state management."
+            tech={['React', 'Next.js', 'TypeScript', 'Tailwind']}
+            link="https://bisakolshop.vercel.app/"
+            image="/bisakol.png"
           />
           <ProjectCard 
-            title="Task Management App" 
-            description="A drag-and-drop Kanban board application."
-            tech={['React', 'Zustand', 'Tailwind']}
-            link="/projects"
+            title="CPU Scheduling — SJF" 
+            description="A web-based simulation of the Shortest Job First (SJF) Non-Preemptive algorithm, designed to visualize process execution and wait times."
+            tech={['React', 'Next.js', 'TypeScript', 'Tailwind']}
+            link="https://sjf-np.vercel.app/"
+            image="/cpu.png"
           />
           <ProjectCard 
-            title="AI Content Generator" 
-            description="A platform leveraging OpenAI API to generate copy."
-            tech={['Next.js', 'OpenAI API', 'Supabase']}
-            link="/projects"
+            title="Operating System Portfolio" 
+            description="A specialized portfolio website showcasing my deep dive into OS projects and system-level skills with a modern UI."
+            tech={['React', 'Next.js', 'TypeScript', 'Tailwind']}
+            link="https://echan-portfolio.vercel.app/"
+            image="/os.png"
           />
         </div>
       </section>
