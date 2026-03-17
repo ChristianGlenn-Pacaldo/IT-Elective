@@ -1,6 +1,6 @@
-import HeroSection from '@/components/HeroSection';
-import SkillsSection from '@/components/SkillsSection';
-import ProjectCard from '@/components/ProjectCard';
+import HeroSection from '@/components/features/home/HeroSection';
+import SkillsSection from '@/components/features/about/AboutSection';
+import ProjectCard from '@/components/features/projects/ProjectCard';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 

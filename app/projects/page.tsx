@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import ProjectCard from '@/components/ProjectCard';
+import ProjectCard from '@/components/features/projects/ProjectCard';
 import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function ProjectsPage() {
@@ -107,7 +107,7 @@ return (
     </div>
   ) : (
     <div className="py-20 text-center border-2 border-dashed border-slate-200 dark:border-white/5 rounded-3xl">
-      <p className="text-slate-500 dark:text-slate-400 font-medium">No projects found matching "{searchQuery}"</p>
+      <p className="text-slate-500 dark:text-slate-400 font-medium">No projects found matching &quot;{searchQuery}&quot;</p>
     </div>
   )}
 

@@ -118,7 +118,7 @@ export default function Blogs() {
           </div>
         ) : (
           <div className="py-20 text-center border-2 border-dashed border-slate-200 dark:border-white/5 rounded-3xl">
-            <p className="text-slate-500 dark:text-slate-400 font-medium">No articles found matching "{searchQuery}"</p>
+            <p className="text-slate-500 dark:text-slate-400 font-medium">No articles found matching &quot;{searchQuery}&quot;</p>
           </div>
         )}
 

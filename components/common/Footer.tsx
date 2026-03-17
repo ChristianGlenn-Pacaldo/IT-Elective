@@ -19,7 +19,7 @@ return (
 
   {/* Column 2: Pages */}
   <div className="flex flex-col">
-    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">// PAGES</h3>
+    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">{`//`} PAGES</h3>
     <nav className="flex flex-col space-y-4">
       <Link href="/" className="text-slate-800 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-bold transition-colors w-max">Home</Link>
       <Link href="/about" className="text-slate-800 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-bold transition-colors w-max">About</Link>
@@ -31,7 +31,7 @@ return (
 
   {/* Column 3: Resources */}
   <div className="flex flex-col">
-    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">// RESOURCES</h3>
+    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">{`//`} RESOURCES</h3>
     <nav className="flex flex-col space-y-4">
       <a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 italic transition-colors w-max">GitHub Boilerplates</a>
       <a href="#" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 italic transition-colors w-max">CodePen Examples</a>
@@ -41,7 +41,7 @@ return (
 
   {/* Column 4: Connect */}
   <div className="flex flex-col">
-    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">// CONNECT</h3>
+    <h3 className="text-slate-400 dark:text-slate-500 mb-5 font-bold tracking-widest uppercase">{`//`} CONNECT</h3>
     <nav className="flex flex-col space-y-4">
       <a href="https://github.com/ChristianGlenn-Pacaldo" target="_blank" rel="noopener noreferrer" className="text-slate-800 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-bold transition-colors w-max">GitHub</a>
       <a href="https://www.facebook.com/itsme.nahce" target="_blank" rel="noopener noreferrer" className="text-slate-800 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 font-bold transition-colors w-max">Facebook</a>
